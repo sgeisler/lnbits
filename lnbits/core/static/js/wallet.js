@@ -40,8 +40,8 @@ function generateChart(canvas, payments) {
     )
     n = n + income - outcome
     data.labels.push(day)
-    data.income.push(income)
-    data.outcome.push(outcome)
+    data.income.push(income);
+    data.outcome.push(outcome);
     data.cumulative.push(n)
   })
 
